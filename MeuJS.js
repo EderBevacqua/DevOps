@@ -3,3 +3,6 @@ function fun1(){
     document.getElementById('demo1').innerHTML='Mudou';
 };
 
+function FunRecarrega(){
+    location.reload()
+};
