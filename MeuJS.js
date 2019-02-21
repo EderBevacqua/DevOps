@@ -4,5 +4,5 @@ function fun1(){
 };
 
 function FunRecarrega(){
-    location.reload()
+    location.reload();
 };
