@@ -1,88 +1,74 @@
 #main {
-    background: red;
+    background: black;
     margin: 0 auto;
     width: 50%;
     padding: 5px 5px 5px 5px;
 }
 #primeiraDiv {
-    background: aqua;
+    background: rgba(255, 255, 255, 0.50);
     padding: 5px 5px 5px 5px;
+    margin:auto 0;
 }
-#artigo1 {
-    background: pink;
-    padding: 5px 5px 5px 5px;
+#MeusDados{
+	display: none;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.30);
+    padding: 10px 10px 10px 10px;
 }
 
-#headerPrimeiraDiv {
-    background: blue;
-    margin: 0 auto;
-    width: 50%;
-    padding: 5px 5px 5px 5px;
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-#conteudoHeader {
-    background: gray;
-    margin: 5px 5px 5px 5px;
-    padding: 5px 5px 5px 5px;
+li {
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size:25px;
 }
 
-#btAtualiza {
-    margin: 0 auto;
-    width: 20%;
+#divNav a:hover {
+    background-color: #ffffff;
+    padding: 5px;
 }
 
-#segundaDiv {
-    background: orange;
-    padding: 5px 5px 5px 5px;
-}
 #headerMenu {
-    background: yellow;
+    background: white;
     padding: 5px 5px 5px 5px;
 }
 #NavMenu {
-    background: Violet;
+    background: rgba(5, 74, 0, 0.80);
     padding: 5px 5px 5px 5px;
     text-align:center;
-}    
-
-
-
-#divNav li {
-    display: inline-block;
-    font-size: 20px;
-    padding: 10px;
 }
 
 
-#terceiraDiv {
-    background: Green;
-    padding: 5px 5px 5px 5px;
+#divDDList1 {
+    display: none;
+    
 }
 
-#section1 {
-    background: Brown;
-    padding: 5px 5px 5px 5px;
-    position:relative;
+#divCheckBox1 {
+    display: none;
 }
 
-#ladoDireito {
-    background: purple;
-    padding: 5px 5px 5px 5px;
-    position: absolute;
-    right: 5px;
-    top: 15px;
-    width: 40%;
-    height: 80%;
+#divRadio1 {
+    display: none;
 }
+
 
 #rodape1 {
+    font-size:5px;
     background: silver;
     padding: 5px 5px 5px 5px;
 }
-#BG {
-    background: white;
-    padding: 5px 5px 5px 5px;
-    width: 50%;
-    margin: 0px 0px 0px 0px;
-    text-decoration:underline;
+
+h1 {
+    color:#000000;
+    text-align:center;
+
 }
